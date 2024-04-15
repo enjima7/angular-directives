@@ -9,7 +9,7 @@ import { SingleUserResponse, User } from '../interfaces/user-request.interface';
 export class UsersServiceService {
 
   private http = inject(HttpClient);
-  private baseUrl = 'https://reqres.in/api/users/';
+  private baseUrl = 'https://reqres.in/api/users';
 
 
   getUserById(id: number):Observable<User>{
